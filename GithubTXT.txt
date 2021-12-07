@@ -1,8 +1,8 @@
 Репозиторий TXT.
 
 1.Создать внешний репозиторий TXT - В аккаунте github выбрать + >сoздать репозиторий>
-									 ввести имя TXT > нажать Создать репозиторий > 
-									 в меню Код скопировать ссылку на репозиторий.
+				ввести имя TXT > нажать Создать репозиторий > 
+			        в меню Код скопировать ссылку на репозиторий.
 									 
 2.Клонировать репозиторий JSON на лок.комп. - git clone + вставить ссылку репозитория(https://github.com/natalliazubik87/TXT.git)
 
@@ -15,21 +15,21 @@
 6.Отправить файл на внешний репозиторий - git push
 
 7.Отредактировать new.json - vim new.txt     1)Name - Natallia
-											 2)Surname - Zubik
-											 3)Age - 34
-											 4)Pets - 2
-											 5)Names - Shustrik,Milka
-											 6)Salary - 2000 :wq
+				             2)Surname - Zubik
+					     3)Age - 34
+			                     4)Pets - 2
+					     5)Names - Shustrik,Milka
+					     6)Salary - 2000 :wq
 
 8.Отправить изменения на внешний репозиторий - git add . > git status > git commit -m > git push
 
 9.Создать файл preference.json - touch preference.txt
 
 10.Заполнить этот файл - vim preference.txt  1)Film - Maleficent
-											 2)Series - Desperate housewives
-											 3)Meal - Grilled chiken
-											 4)Season - Winter
-											 5)Country - Iceland   :wq
+					     2)Series - Desperate housewives
+					     3)Meal - Grilled chiken
+					     4)Season - Winter
+					     5)Country - Iceland   :wq
 										
 11. Создать skills.txt - touch skills.txt > vim skills.txt : Skills : Github,Postman,Jmeter,SQL,Charles. :wq
 
@@ -37,19 +37,16 @@
 12.	Отправить 2 файла на внешний репозиторий - git add . > git status > git commit -m > git push
 
 13.На вебе создать файл bug_report.txt,добавить баг-репорт в формате TXT  - на сайте github создать файл,в окне редактирования 
-                                                                             
-																			 добавить текст баг-репорта в формате TXT :
-																			 
-																			Defect ID          : 119
-																			Summary            : Login:Error messages in the login form are displayed in English
-																			Enviroments        : All browsers/devices
-																			Severity           : Major
-																			Steps to reproduce : 1.Open front end https://www.test-link.be.8443/
-																								 2.Follow "inloggenlink"
-																								 3.Fill required fields with invalid data
-																								 4.Click "Inloggen" buton
-																								 5.Pay attention to error messages
-																			Actual result      : Error messages in the login form displayed in English
-																			Expected result    : Error message in the login form are displayed in the chosen language
+   добавить текст баг-репорта в формате TXT : Defect ID          : 119
+					      Summary            : Login:Error messages in the login form are displayed in English
+					      Enviroments        : All browsers/devices
+					      Severity           : Major
+					      Steps to reproduce : 1.Open front end https://www.test-link.be.8443/
+								   2.Follow "inloggenlink"
+								   3.Fill required fields with invalid data
+								   4.Click "Inloggen" buton
+								   5.Pay attention to error messages
+					      Actual result      : Error messages in the login form displayed in English
+					      Expected result    : Error message in the login form are displayed in the chosen language
 																			
-14.	В Gitbash, находясь в папке TXT сделать команду git fetch потом git pull для синхронизации внешнего и локального репозиториев.									
+14. В Gitbash, находясь в папке TXT выполнить команду git fetch потом git pull для синхронизации внешнего и локального репозиториев.									
