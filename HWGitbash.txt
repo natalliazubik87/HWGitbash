@@ -1,0 +1,75 @@
+  Домашняя работа 1.GitBash.
+
+1.Посмотреть где я - pwd
+
+2.Создать папку - mkdir folder_1
+
+3.Зайти в папку - cd folder_1
+ 
+4.Создать 3 папки - mkdir d_1 d_2 d_3
+
+5.Зайти в любую папку - cd d_1
+
+6.Создать 5 файлов(3 txt,2 json)- touch file_1.txt file_2.txt file_3.txt file_4.json file_5.json
+
+7.Вывести список содержимого папки - ls(выведет файлы в строку)
+                                   ls -a(выведет файлы+скрытые файлы в строку)
+								   ls -la (выведет файлы+скрытые файлы в столбец в длинном 
+								   формате c колонками времени,даты и т.д.)
+Также команда вывода содержимого папки может выполнять много других опций:сортировка по разным
+ параметрам,вывод через запятую(-m),вывод только директорий,без их содержимого(-d) и др.
+ 
+8.+Открыть любой txt файл - vim file_1.txt
+
+9.+написать туда любой текст - i(INSERT) Hello GitBash!
+
+10.+сохранить и выйти - esc,:wq(сохранить и выйти)
+
+11.Выйти из папки на уровень выше - cd ..
+
+12.Переместить 2 файла в любую др.папку - mkdir inner_folder,mv file_2.txt file_3.txt inner_folder/
+
+13.Скопировать любые 2 файла,в любую другую папку - cp file_4.json file_5.json inner_folder/
+
+14.Найти файл по имени - find -name file_2.txt
+
+15.Просмотреть содержимое в реальном времени - cat file_11.txt
+
+16.Вывести несколько первых строк из текстового файла - head -3 file_11.txt или cat file_11.txt | grep 2 -B1(не работает grep 1 -A1)
+
+17.Вывести несколько последних строк из текстового файла - tail -n2 file_11.txt
+
+18.Просмотреть содержимое длинного файла - less file_11.txt
+
+19.Вывести дату и время - date
+
+**
+
+ 1. Отправить http-запрос : curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+ 
+    выведет  age":"32","family":{"children":[["Alex",24],["Kate",12]],
+	
+	         "pets":{"cat":{"age":3,"name":"Sunny"},"dog":{"age":4,"name":"Luky"}},
+	
+	         "u_salary_1_5_year":4000},"name":"Vadim","salary":1000}
+
+
+ 2.Чтобы запустить скрипт,нужно : 
+       
+	   1 способ - создать файл с расширением .sh(touch script_shell.sh)
+	              
+				  открыть его (vim script_shell.sh)
+				  
+				  написать скрипт (cd inner_folder ; mkdir f_1 f_2 f_3 ; cd f_1 ; 
+ 
+ touch t_1.txt t_2.txt t_3.txt j_1.json j_2.json ; cd .. ; ls f_1 ; vim t_1.txt ; cd f_1 ; mkdir f_11 ;
+ 
+ cp t_2.txt j_2.json f_11/)
+                  
+				  ввести команду bash название файла(script_shell.sh) 
+				  
+		2 способ - все команды вводить через точку с запятой - cd inner_folder ; mkdir f_1 f_2 f_3 ; cd f_1 ; 
+ 
+ touch t_1.txt t_2.txt t_3.txt j_1.json j_2.json ; cd .. ; ls f_1 ; vim t_1.txt ; cd f_1 ; mkdir f_11 ;
+ 
+ cp t_2.txt j_2.json f_11/
