@@ -1,4 +1,4 @@
-Репозиторий XML.
+﻿Репозиторий XML.
 
 1.Создать внешний репозиторий XML - В аккаунте github выбрать + >сoздать репозиторий>
 									 ввести имя XML > нажать Создать репозиторий > 
@@ -23,7 +23,7 @@
 8.Отправить изменения на внешний репозиторий - git add . > git status > git commit -m > git push
 
 9.Создать файл preference.xml - touch preference.xml
-10.Заполнить этот файл - vim preference.xml <film Maleficent></film>
+10.Заполнить этот файл - vim preference.xml <film>Maleficent></film>
 											<series>Desperate housewives</series>
 											<meal>chiken</meal>
 											<season>winter</season>
