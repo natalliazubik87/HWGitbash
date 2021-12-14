@@ -24,6 +24,7 @@
 
 9.Создать файл preference.xml - touch preference.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 10.Заполнить этот файл - vim preference.xml <film>Maleficent></film>
 											<series>Desperate housewives</series>
 											<meal>chiken</meal>
@@ -32,6 +33,8 @@
 											 :wq
 										
 =======
+=======
+>>>>>>> 5ca5b4a7f5e3a976f4f938238f75470e12771492
 10.Заполнить этот файл - vim preference.xml <film Maleficent></film>
 					    <series>Desperate housewives</series>
 					    <meal>chiken</meal>
@@ -39,6 +42,9 @@
 					    <country>Iceland</country>
 					     :wq
 									
+<<<<<<< HEAD
+>>>>>>> 5ca5b4a7f5e3a976f4f938238f75470e12771492
+=======
 >>>>>>> 5ca5b4a7f5e3a976f4f938238f75470e12771492
 11. Создать skills.xml - touch skills.xml > vim skills.xml
 
