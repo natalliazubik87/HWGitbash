@@ -48,7 +48,7 @@ Postman/Jmeter/CheckLists/Bag Reports/SQL/Charles/Mobile testing - git branch Po
 
 Структура чек-листа
 
-Чек-лист - высокоуровневый набор идей тестов.(Список проверок,в котором показано,что мы будем тестировать.Что мы собирвемся делать,что мы не хотим хабыть,что будем проверять,результат проверок)
+Чек-лист - высокоуровневый набор идей тестов.(Список проверок,в котором показано,что мы будем тестировать.Что мы собирвемся делать,что мы не хотим забыть,что будем проверять,результат проверок)
  - Build
  - Enviroment
  - Test Date
@@ -60,6 +60,6 @@ Postman/Jmeter/CheckLists/Bag Reports/SQL/Charles/Mobile testing - git branch Po
 
 8. Запушить структуру на внешний репозиторий - git add . > git commit -m "add check list's structure" > git push
 
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - перейдя в ветку ChrckLists нажать кнопку Compare and pull request
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main - перейдя в ветку CheckLists нажать кнопку Compare and pull request
 
 10. Синхронизировать Внешнюю и Локальную ветки Main - в GitBash выполняем команды git fetch > git pull
